@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "projectai"
+version = "0.1.0"
+description = ""
+authors = ["Rahul Pandey <rpandey1901@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+duckduckgo-search = "^8.0.1"
+openai-agents = "^0.0.13"
+python-dotenv = "^1.1.0"
+nest-asyncio = "^1.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
